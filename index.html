@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/main.css" />
+    <title>Axell Linktree</title>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <header class="header">
+        <h1 class="title">A X E L L</h1>
+        <p>Frontend Developer</p>
+      </header>
+      <main class="main">
+        <div class="terminal">
+          <ul class="link-list">
+            <li class="link-item likedin">
+              <a href="https://www.linkedin.com/in/axell2552" target="_blank">
+                <img
+                  src="./static/images/linkedin.svg"
+                  alt="LinkedIn profile"
+                />
+                LinkedIn</a
+              >
+            </li>
+            <li class="link-item github">
+              <a href="https://github.com/ASDaxsorb" target="_blank">
+                <img src="./static/images/github.svg" alt="Github link" />
+                Github</a
+              >
+            </li>
+            <li class="link-item portfolio">
+              <a
+                href="https://axell-software-developer.netlify.app/"
+                target="_blank"
+              >
+                <img src="./static/images/portfolio.svg" alt="Portfolio link" />
+                Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <script src="./static/js/three.min.js"></script>
+    <script src="./static/js/vanta.net.min.js"></script>
+    <script>
+      VANTA.HALO({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 100.0,
+        //minWidth: 500.0,
+        backgroundColor: 0x20307,
+      });
+    </script>
+  </body>
+</html>
